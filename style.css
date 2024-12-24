@@ -1339,6 +1339,8 @@ ul.active .nav-links a{
 .resume-edu-text h4 {
   font-size: 20px;
 }
+#welcome-section{
+    padding: 250px 0 0 0;
 }   
 
 @media (max-width: 375px) {
