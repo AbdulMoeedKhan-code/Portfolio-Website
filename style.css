@@ -52,12 +52,12 @@ body {
 
 #hero-background-image {
   height: 110vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://preview.colorlib.com/theme/orbit/images/hero_img.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/PWgLQ1v/004.jpg);
   width: 100vw;
   overflow-x: hidden;
   background-size: cover;
   object-fit: hidden;
-  background-position: 70% -40px;
+  background-position: top right;
 }
 
 /* +++++++++++ menu-icon ++++++++++++ */
@@ -974,6 +974,15 @@ footer{
 }
  /* +++++++ 1182 width +++++++ */
 @media (max-width: 1182px) {
+  #hero-background-image {
+  height: 110vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/MBs7Dcf/0003.jpg);
+  width: 100vw;
+  overflow-x: hidden;
+  background-size: cover;
+  object-fit: hidden;
+  background-position:  center; 
+}
   .footer-flex {
   width: 100%;
   max-width: 1400px;
@@ -1257,6 +1266,15 @@ ul.active .nav-links a{
   }
   #welcome-section h1 {
   font-size: 29px;
+}
+  #hero-background-image {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/NSCZQys/0005.jpg);
+  width: 100vw;
+  overflow-x: hidden;
+  background-size: cover;
+  object-fit: hidden;
+  background-position: center; 
 }
 } 
  /* +++++++ 485 width +++++++ */
