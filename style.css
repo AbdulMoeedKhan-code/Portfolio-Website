@@ -52,12 +52,12 @@ body {
 
 #hero-background-image {
   height: 110vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/PWgLQ1v/004.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/7kdN5Gv/02.png);
   width: 100vw;
   overflow-x: hidden;
   background-size: cover;
   object-fit: hidden;
-  background-position: top right;
+  background-position: top bottom;
 }
 
 /* +++++++++++ menu-icon ++++++++++++ */
@@ -227,7 +227,7 @@ nav li:hover .dropdown-content {
   text-align: center;
   align-items: center;
   width: 100%;
-  padding: 290px 0 0;
+  padding: 310px 0 0;
   color: var(--light);
 }
 
@@ -870,6 +870,12 @@ footer{
 }
 
 /* Media Queries */
+/* +++++++++  1482 width ++++++++++++ */
+@media (max-width: 1482px) {
+  #welcome-section {
+  padding: 250px 0 0 0;
+  }
+}
  /* +++++++ 1450 width +++++++ */
 @media (max-width: 1450px) {
   .container {
@@ -974,15 +980,6 @@ footer{
 }
  /* +++++++ 1182 width +++++++ */
 @media (max-width: 1182px) {
-  #hero-background-image {
-  height: 110vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/RhdpMwv/Whats-App-Image-2024-12-25-at-15-31-51-9cad8876.jpg);
-  width: 100vw;
-  overflow-x: hidden;
-  background-size: cover;
-  object-fit: hidden;
-  background-position:  center; 
-}
   .footer-flex {
   width: 100%;
   max-width: 1400px;
@@ -1000,6 +997,9 @@ footer {
 }
 .testimonial-text h3 {
   margin-left: 3rem;
+}
+#welcome-section h1 {
+  max-width: 67vw;
 }
 }
 /* +++++++ 931px ++++++++ */
@@ -1112,6 +1112,15 @@ ul.active .nav-links a{
 }
  /* +++++++ 766 width +++++++ */
 @media (max-width: 766px) {
+  #hero-background-image {
+  height: 110vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/fdJS1YV/02-magicstudio-z7tx9ys0e4q.png);
+  width: 100vw;
+  overflow-x: hidden;
+  background-size: cover;
+  object-fit: hidden;
+  background-position: left; 
+}
   #welcome-section h1 {
   font-size: 40px;
   max-width: 60vw;
@@ -1147,7 +1156,7 @@ ul.active .nav-links a{
   padding: 40px 0;
 }
 #welcome-section{
-  padding: 250px 0 0 0;
+  padding: 270px 0 0 0;
 }
 #welcome-section h1 {
   font-size: 40px;
@@ -1246,7 +1255,7 @@ ul.active .nav-links a{
 }
  /* +++++++ 525 width +++++++ */
 @media (max-width:525px) {
-  .buttons {
+.buttons {
   flex-direction: column;
 }
 .Contact a, .Contact p {
@@ -1255,26 +1264,26 @@ ul.active .nav-links a{
 }
  /* +++++++ 500 width +++++++ */
 @media (max-width: 500px) {
-  #welcome-section h1{
+#welcome-section h1{
   font-size: 30px;
   }
-  .project-image{
+.project-image{
     height: auto;
   }
-  .project-title{
+.project-title{
     margin: 1rem 0;
   }
-  #welcome-section h1 {
+#welcome-section h1 {
   font-size: 29px;
 }
-  #hero-background-image {
-  height: 100vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/NSCZQys/0005.jpg);
+#hero-background-image {
+  height: 110vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/2gyLJj3/04.jpg);
   width: 100vw;
   overflow-x: hidden;
   background-size: cover;
   object-fit: hidden;
-  background-position: center; 
+  background-position: top; 
 }
 } 
  /* +++++++ 485 width +++++++ */
