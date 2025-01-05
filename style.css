@@ -1345,6 +1345,15 @@ ul.active .nav-links a{
  font-size: 26px;
  width: 100vw;
 }
+#hero-background-image {
+  height: 110vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://i.ibb.co/2gyLJj3/04.jpg);
+  width: 100vw;
+  overflow-x: hidden;
+  background-size: cover;
+  object-fit: hidden;
+  background-position: left; 
+}
 }
  /* +++++++ 405px width +++++++ */
 @media (max-width: 405px) {
