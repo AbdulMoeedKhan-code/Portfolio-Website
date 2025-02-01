@@ -1283,7 +1283,7 @@ ul.active .nav-links a{
   overflow-x: hidden;
   background-size: cover;
   object-fit: hidden;
-  background-position: bottom; 
+  background-position: top; 
 }
 } 
  /* +++++++ 485 width +++++++ */
