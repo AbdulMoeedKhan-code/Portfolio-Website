@@ -1352,7 +1352,7 @@ ul.active .nav-links a{
   overflow-x: hidden;
   background-size: cover;
   object-fit: hidden;
-  background-position: left; 
+  background-position: center; 
 }
 }
  /* +++++++ 405px width +++++++ */
@@ -1376,7 +1376,7 @@ ul.active .nav-links a{
   font-size: 20px;
 }
 #welcome-section{
-    padding: 250px 0 0 0;
+    padding: 260px 0 0 0;
 }   
 
 @media (max-width: 375px) {
