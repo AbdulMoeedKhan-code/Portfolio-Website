@@ -2,80 +2,79 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 const businessInfo = `
 
-General Business Information:
-Website: www.yourbusiness.com
+Based on the information from your portfolio website, here's a refined and comprehensive overview that you can incorporate:
 
-Return Policy:
-Customers can return products within 30 days of purchase with the original receipt.
-Items must be unused and in their original packaging.
-Refunds will be processed to the original payment method.
+---
+Portfolio Overview:
 
-Support Email: support@yourbusiness.com
+About Me
+Hi, I'm Abdul Moeed Khan, a passionate web developer and designer dedicated to creating interactive and user-friendly digital experiences. I have hands-on experience working as an intern for 6 months at Codify and 2 months at BXTRACK, where I contributed to web development projects, improved user interfaces, and implemented responsive designs. I also developed websites using HTML, CSS, JavaScript, Python, React, and integrated APIs into websites, showcasing my ability to merge functionality with design. Currently, I'm preparing to pursue further education abroad, aiming to expand my expertise and continue pushing creative boundaries. 
 
-Madrid Location:
-Address: Calle Mayor 123, 28013 Madrid, Spain
-Phone: +34 91 123 4567
-Email: madrid@yourbusiness.com
-Opening Hours:
-Monday to Friday: 10:00 AM to 8:00 PM
-Saturday: 10:00 AM to 6:00 PM
-Sunday: Closed
+Skills & Expertise
+- Programming Languages: JavaScript (85%), HTML5 (98%), CSS3 (97%), Python (80%)
+- Frameworks & Libraries: React.js (80%), Tailwind CSS (95%)
+- Development Tools: Git, GitHub
+- Design Tools: Figma, Adobe XD
 
-New York Location:
-Address: 456 Broadway, New York, NY 10012, USA
-Phone: +1 212-123-4567
-Email: newyork@yourbusiness.com
-Opening Hours:
-Monday to Friday: 9:00 AM to 7:00 PM
-Saturday: 10:00 AM to 5:00 PM
-Sunday: Closed
+Projects
+- Weather App: A responsive application providing real-time weather updates using external APIs. 
+- ImagineX-AI: An AI-driven platform offering innovative solutions for modern challenges. 
+- Rock Paper Scissors Game: An interactive game developed using JavaScript, enhancing user engagement through dynamic features. 
+- Brainwave: An AI chatting application facilitating seamless communication between users and AI. 
+- E-Commerce Website: A comprehensive online shopping platform with user-friendly interfaces and secure payment integrations. 
+- .Sneakers: A niche e-commerce site specializing in sneaker sales, featuring sleek design and smooth navigation. 
 
-FAQs:
-General:
-What is your return policy?
+Services
+- Development: Leveraging cutting-edge technologies, I build robust and scalable web applications that drive business growth and enhance user engagement. 
+- Design: With a keen eye for aesthetics and user experience, I craft visually appealing designs that resonate with target audiences and elevate brand identity. 
+- eCommerce: Specializing in eCommerce solutions, I create seamless online shopping experiences that boost conversions and foster customer loyalty. 
 
-You can return items within 30 days with the original receipt and packaging. Refunds are processed to the original payment method.
-Do you ship internationally?
+Experience
+- Junior Front End Developer at BX-Track Solutions (Rawalpindi, Pakistan)
+  - Duration: Nov 2024 - Jan 2025
+  - Role: Contributed to front-end development projects, enhancing user interfaces and ensuring responsive design implementations. 
+- Junior Front End Developer at Codify (Private) Limited (Rawalpindi, Pakistan)
+  - Duration: May 2024 - Oct 2024
+  - Role: Assisted in developing web applications, focusing on improving user experience and integrating modern web technologies. 
 
-Yes, we ship to most countries. Shipping rates and delivery times vary by location.
-How can I track my order?
+Certifications
+- College Algebra with Python
+  - Institution: Free Code Camp, Inc
+  - Duration: 300 hours of work
+  - Certificate Link: [View Certificate](https://drive.google.com) 
+- Introduction to Artificial Intelligence
+  - Institution: Simplilearn | SkillUP
+  - Duration: 6 Months
+  - Certificate Link: [View Certificate](https://drive.google.com) 
+- Responsive Web Design
+  - Institution: Free Code Camp, Inc
+  - Duration: 300 hours
+  - Certificate Link: [View Certificate](https://drive.google.com) 
+- Prompt Engineering for ChatGPT
+  - Institution: Great Learning
+  - Completion Date: July 2024
+  - Certificate Link: [View Certificate](https://drive.google.com) 
+- JavaScript Algorithms and Data Structures
+  - Institution: Free Code Camp, Inc
+  - Duration: 300 hours
+  - Certificate Link: [View Certificate](https://drive.google.com) 
 
-You will receive a tracking number via email once your order is shipped.
-Can I cancel or modify my order?
+Education
+- High Secondary School Certificate (11th & 12th)
+  - Institution: F.G. Sir Syed College
+  - Duration: Sep 2021 - Aug 2023
+- Secondary School Certificate (9th & 10th)
+  - Institution: SLS Montessori And High School
+  - Duration: Sep 2019 - Aug 2021
 
-Orders can be modified or canceled within 24 hours. Please contact support@yourbusiness.com.
-Madrid Location:
-What are your opening hours in Madrid?
-
-Monday to Friday: 10:00 AM to 8:00 PM
-Saturday: 10:00 AM to 6:00 PM
-Sunday: Closed
-Is parking available at the Madrid store?
-
-Yes, we offer parking nearby. Contact us for details.
-How can I contact the Madrid store?
-
-You can call us at +34 91 123 4567 or email madrid@yourbusiness.com.
-New York Location:
-What are your opening hours in New York?
-
-Monday to Friday: 9:00 AM to 7:00 PM
-Saturday: 10:00 AM to 5:00 PM
-Sunday: Closed
-Do you host events at the New York location?
-
-Yes, we host regular workshops and community events. Check our website for updates.
-How can I contact the New York store?
-
-You can call us at +1 212-123-4567 or email newyork@yourbusiness.com.
-
-Tone Instructions:
-Conciseness: Respond in short, informative sentences.
-Formality: Use polite language with slight formality (e.g., "Please let us know," "We are happy to assist").
-Clarity: Avoid technical jargon unless necessary.
-Consistency: Ensure responses are aligned in tone and style across all queries.
-Example: "Thank you for reaching out! Please let us know if you need further assistance."
-
+Testimonials
+- Noor Lodhi, Founder of Lodhi Cloths:
+  > "Working with Abdul Moeed Khan on Lodhi Cloths was a great experience! He built a fast, user-friendly, and stylish e-commerce site that makes shopping easy. Highly recommended!" 
+- Emma Davis, Coding Instructor at FreeCodeCamp:
+  > "Abdul Moeed Khan is a highly motivated and talented web developer. Their passion for learning 
+Contact Me
+📞 Phone: +32 466223287
+📧 Email: abdulmoeedkhan287@gmail.com
 `;
 
 const API_KEY = "AIzaSyDexCSTk7KVAQmnjYY6FaFknHD4b_VZeyw";
