@@ -66,6 +66,36 @@
           >
         </p>
       </section>
+       <section class="chat-window" style="position: fixed;">
+        <button class="close">x close</button>
+        <div class="chat">
+            <div class="model">
+                <p>Hi, how can I help you?</p>
+            </div>
+            
+        </div>
+        <div class="input-area">
+            <input placeholder="Ask me anything..." type="text">
+            <button>
+                <img src="https://i.ibb.co/N2sB7fjF/send-icon.png" alt="send">
+            </button>
+        </div>
+    </section>
+
+    <div class="chat-button">
+        <img src="https://i.ibb.co/zTzNymnw/chat-icon.png" alt="start chat">
+    </div>
+
+    <script type="importmap">
+        {
+          "imports": {
+            "@google/generative-ai": "https://esm.run/@google/generative-ai"
+          }
+        }
+    </script>
+    
+    <script type="module" src="main.js"></script>
+   
     </div>
 
     <section id="main-container">
