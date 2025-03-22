@@ -1413,23 +1413,24 @@ body.chat-open {
 
 .chat-button {
     position: fixed;
-    bottom: 25px;
-    right: 20px;
+    bottom: 35px;
+    right: 45px;
     z-index: 998;
     background-color: #a2c08a;
     color: white;
-    height: 80px;
-    width: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    border: 3px solid rgb(55, 50, 50);
 
     img {
-        width: 50px;
+        width: 80px;
     }
-
+  
     &:hover {
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
