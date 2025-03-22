@@ -1548,6 +1548,17 @@ body.chat-open {
     }
 }
 
+@media (max-width: 790px) {
+   .chat-button {
+    bottom: 29px;
+    right: 8px;
+    width: 80px;
+    height: 80px;
+    img {
+        width: 70px;
+    }
+   } 
+}
 @media (max-width: 500px) {
     .chat-window {
     height: 480px;
