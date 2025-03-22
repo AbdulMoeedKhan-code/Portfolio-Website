@@ -1414,7 +1414,7 @@ body.chat-open {
 .chat-button {
     position: fixed;
     bottom: 35px;
-    right: 45px;
+    right: 32px;
     z-index: 998;
     background-color: #a2c08a;
     color: white;
